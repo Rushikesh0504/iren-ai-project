@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/iren-ai-project/static/css/main.d7994e9a.css",
+    "main.js": "/iren-ai-project/static/js/main.babc1cd0.js",
+    "index.html": "/iren-ai-project/index.html",
+    "main.d7994e9a.css.map": "/iren-ai-project/static/css/main.d7994e9a.css.map",
+    "main.babc1cd0.js.map": "/iren-ai-project/static/js/main.babc1cd0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d7994e9a.css",
+    "static/js/main.babc1cd0.js"
+  ]
+}
