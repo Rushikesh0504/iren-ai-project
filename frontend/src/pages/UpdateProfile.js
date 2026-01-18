@@ -32,7 +32,7 @@ function UpdateProfile({ goBack }) {
   const handleSave = async () => {
     try {
       const res = await axios.put(
-        "http://localhost:5000/api/auth/profile",
+        "https://iren-ai-project.onrender.com/api/auth/profile",
         form,
         {
           headers: { Authorization: token }

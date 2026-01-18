@@ -17,7 +17,7 @@ function Login({ goSignup, goProfile }) {
   const handleLogin = async () => {
     try {
       const res = await axios.post(
-        "http://localhost:5000/api/auth/login",
+        "https://iren-ai-project.onrender.com/api/auth/login",
         form
       );
 

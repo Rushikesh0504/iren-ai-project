@@ -8,7 +8,7 @@ function Clients({ goBack }) {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/auth/clients", {
+      .get("https://iren-ai-project.onrender.com/api/auth/profile", {
         headers: { Authorization: token }
       })
       .then((res) => setClients(res.data))

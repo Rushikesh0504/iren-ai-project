@@ -8,7 +8,7 @@ function Profile({ goUpdate, goClients, goLogout }) {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/auth/profile", {
+      .get("https://iren-ai-project.onrender.com/api/auth/profile", {
         headers: { Authorization: token }
       })
       .then((res) => {
