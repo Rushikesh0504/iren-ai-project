@@ -7,7 +7,7 @@ const app = express();
 
 app.use(cors());
 app.use(express.json());
-console.log("MONGO_URL FROM RENDER:", process.env.MONGO_URL);
+
 
 
 mongoose
